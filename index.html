@@ -184,7 +184,7 @@ title.addTo(map);
             abstract.show = function () {
                 this._div.classList.remove("abstract");
                 this._div.classList.add("abstractUncollapsed");
-                this._div.innerHTML = 'Peripheral zones show high drainage density in red/orange indicating closely spaced stream networks, steep slopes, and high surface runoff with low infiltration, while central blue areas show low drainage density indicating widely spaced streams, gentler terrain, and higher infiltration capacity.<br />';
+                this._div.innerHTML = 'Blue areas have high Drainage Density meaning closely spaced streams with rapid surface runoff and poor infiltration, while red areas have low Drainage Density meaning widely spaced streams with slow runoff and better groundwater recharge.';
         };
         abstract.addTo(map);
         var zoomControl = L.control.zoom({
